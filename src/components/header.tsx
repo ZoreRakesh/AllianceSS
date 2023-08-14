@@ -45,7 +45,7 @@ const Header: React.FC = () => {
           ref={menuRef}
             className={`${
               menuOpen ? "block" : "hidden"
-            } absolute top-16 right-10 bg-[rgb(12,16,22)] bg-opacity-50 p-4 lg:flex list-none m-0 lg:p-0 lg:static lg:space-x-4`}
+            } absolute top-16 right-10 rounded-lg text-white  bg-[rgb(65,126,216)] bg-opacity-60 dark:bg-blue-500 dark:bg-opacity-50  p-4 lg:dark:text-white lg:flex list-none m-0 lg:text-black lg:bg-transparent lg:p-0 lg:static lg:space-x-4`}
           >
             <li className="block hover:text-blue-300 lg:inline-block mb-2 md:mb-0 ">
               <a href="#Home" onClick={()=>{
