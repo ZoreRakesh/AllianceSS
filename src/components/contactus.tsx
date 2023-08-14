@@ -1,4 +1,5 @@
-import { MdLocationOn,MdOutlineEmail } from "react-icons/md";
+import { MdLocationOn } from "react-icons/md";
+import {HiOutlineMail} from "react-icons/hi"
 import {TbPhone} from "react-icons/tb"
 import Footer from "./footer";
 
@@ -6,8 +7,8 @@ export default function Contactus() {
   return (
     <>
       <div id="Contactus">
-        <div className="w-full min-h-screen p-20 relative">
-          <div className=" font-semibold text-3xl my-8">ContactUS</div>
+        <div className="w-full py-20 px-4 md:p-20 relative">
+          <div className=" font-semibold text-3xl mt-8 mb-2">ContactUS</div>
           <div className="p-7 ">
             <div className="flex items-center">
               <MdLocationOn size={30} className="flex-shrink-0" />
@@ -19,7 +20,7 @@ export default function Contactus() {
               </p>
             </div>
             <div className="flex items-center mt-8">
-              <MdOutlineEmail size={30} />
+              <HiOutlineMail size={30} />
               <p className="ml-4">alliancesubsea@gmail.com</p>  
             </div>
             <div className="flex items-center mt-8">

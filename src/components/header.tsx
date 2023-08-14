@@ -1,67 +1,5 @@
 "use client";
 
-// import React from "react";
-// import Image from "next/image";
-
-
-// import { usePathname } from "next/navigation";
-
-// const Header: React.FC = () => {
-//   const pathName = usePathname();
-
-//   return (
-//     <header className="header fixed top-0 left-0 h-[75px] w-full px-3 p-2 z-50 ">
-//       <nav>
-//         <div className="flex justify-between items-center">
-//           <div className=" flex items-center">
-//             <Image src="/ALLIANCE-LOGO1.png" alt="alternatetext" width={100} height={100}></Image>
-//             <p className="font-bold text-xl">ALLIANCE SUBSEA SOLUTION PVT. LTD.</p>
-//           </div>
-
-//           <ul className="flex list-none m-0 p-0">
-//             <li className="mr-8 hover:text-blue-300">
-//               <a
-//                 href="#Home"
-                
-//               >
-//                 Home
-//               </a>
-//             </li>
-          
-        
-//             <li className="mr-8 hover:text-blue-300">
-//               <a
-//                 href="#Services"
-               
-//               >
-//                 Services
-//               </a>
-//             </li>
-//             <li className="mr-8 hover:text-blue-300">
-//               <a
-//                 href="#Certificates"
-                
-//               >
-//                Certificates
-//               </a>
-//             </li>
-//             <li className="mr-8 hover:text-blue-300 active:text-blue-300">
-//               <a
-//                 href="#Contactus"
-                
-//               >
-//                 ContactUs
-//               </a>
-//             </li>
-//           </ul>
-//         </div>
-//       </nav>
-//     </header>
-//   );
-// };
-
-// export default Header;
-
 
 import React, { useState,useEffect,useRef } from "react";
 import Image from "next/image";
@@ -80,7 +18,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center ">
           <div className="flex items-center">
             <Image src="/ALLIANCE-LOGO1.png" alt="alternatetext" width={100} height={100} />
-            <p className="font-bold text-base  md:text-lg  lg:text-xl">ALLIANCE SUBSEA SOLUTION PVT. LTD.</p>
+            <p className="font-bold text-xs  md:text-lg  lg:text-xl">ALLIANCE SUBSEA SOLUTION PVT. LTD.</p>
           </div>
           <div className="lg:hidden">
             <button

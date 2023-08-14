@@ -5,7 +5,7 @@ export default function Services() {
     return (
         <>
         <div id="Services">
-            <div className="w-full md:h-screen p-20">
+            <div className="w-full py-20 px-4 md:p-20">
                 <div className=" font-semibold text-3xl mt-6 mb-10 text-center ">Our Services</div>
                 <div className="flex flex-col md:flex-row justify-evenly items-center mt-4 md:mt-6">
                     <div className="hidden lg:block lg:w-10"></div>

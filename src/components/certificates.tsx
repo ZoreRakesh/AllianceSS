@@ -11,7 +11,7 @@ export default function Certificates() {
     return (
         <>
         <div id="Certificates">
-            <div className="w-full  md:h-screen p-20">
+            <div className="w-full py-20 px-4 md:p-20">
                 
             <div className=" font-semibold text-3xl my-8 text-center">Certificates</div>
             <div className='flex  mt-8 justify-center'>
